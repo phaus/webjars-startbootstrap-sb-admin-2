@@ -14,7 +14,7 @@
     <version>3.3.7+1</version>
     <packaging>jar</packaging>
     <description>WebJar for startbootstrap-sb-admin-2 by BlackrockDigital</description>
-    <url>https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git</url>
+    <url>https://github.com/BlackrockDigital/startbootstrap-sb-admin-2</url>
 
     <licenses>
         <license>
@@ -25,9 +25,9 @@
     </licenses>
 
     <scm>
-        <url>http://github.com:phaus/webjars-viz.js</url>
-        <connection>scm:git:https://github.com:phaus/webjars-viz.js.git</connection>
-        <developerConnection>scm:git:https://github.com:phaus/webjars-viz.js.git</developerConnection>
+        <url>https://github.com/phaus/webjars-startbootstrap-sb-admin-2</url>
+        <connection>scm:git:https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git</connection>
+        <developerConnection>scm:git:https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -89,7 +89,7 @@
                                   </dirset>
                                 </path>
                                 <property name="pkg-name" refid="package_name" />
-                                <echo message="renaming ${pkg-name} to ${project.build.directory}/innoq-innoq-styles-${upstreamVersion}" />
+                                <echo message="renaming ${pkg-name} to ${project.build.directory}/startbootstrap-sb-admin-${upstreamVersion}" />
                                 <move file="${pkg-name}" tofile="${project.build.directory}/startbootstrap-sb-admin-2-${upstreamVersion}" />                                
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
